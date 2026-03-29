@@ -56,7 +56,7 @@ task-manager-api/
 ### **1. Prerequisites**
 
   * **Python 3.10+**
-  * **PostgreSQL** (Ensure a database named `task_db` is created)
+  * **PostgreSQL** (Ensure a database named `taskdb` is created)
 
 ### **2. Installation**
 
@@ -78,7 +78,7 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 
 ```bash
-DATABASE_URL=postgresql://<username>:<password>@localhost:5432/task_db
+DATABASE_URL=postgresql://<username>:<password>@localhost:5432/taskdb
 SECRET_KEY=your_random_secret_key_here
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=60
