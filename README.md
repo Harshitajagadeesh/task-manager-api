@@ -92,7 +92,6 @@ uvicorn app.main:app --reload
 
 *The API will automatically create the required database tables on startup.*
 
------
 
 ## **API Documentation**
 
@@ -100,7 +99,6 @@ Once the server is running, you can access the interactive docs at:
 
   * **Swagger UI:** [http://127.0.0.1:8000/docs](https://www.google.com/search?q=http://127.0.0.1:8000/docs)
 
------
 
 ## **Testing with Curl**
 
